@@ -24,6 +24,12 @@
 ;;; Commentary:
 
 ;; This package provide a major mode to edit nastran file
+;; To install, copy it in .emac.d/lisp and copy the line under in your init.el
+;; (add-to-list 'load-path "~/.emacs.d/lisp")
+;; (require 'nastran-mode)
+;; (add-to-list 'auto-mode-alist '("\\.dat\\'" . nastran-mode))
+;; (add-to-list 'auto-mode-alist '("\\.bdf\\'" . nastran-mode))
+;; (add-to-list 'auto-mode-alist '("\\.blk\\'" . nastran-mode))
 
 ;;; Code:
 
